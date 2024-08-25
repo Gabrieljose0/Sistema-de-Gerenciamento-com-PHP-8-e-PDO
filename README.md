@@ -18,7 +18,9 @@ O objetivo principal deste projeto é consolidar os conhecimentos adquiridos no 
 # Funcionalidades
 O sistema desenvolvido possui as seguintes funcionalidades:
 
-.Cadastro de usuários
+-Cadastro de usuários
+
+
 .Autenticação de usuários com sessão
 .Listagem, edição e exclusão de registros no banco de dados
 .Validação de formulários
