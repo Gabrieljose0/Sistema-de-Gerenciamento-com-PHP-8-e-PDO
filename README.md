@@ -7,30 +7,30 @@ Este repositório contém o projeto desenvolvido durante o curso Curso de PHP 8 
 # Objetivo do Projeto
 O objetivo principal deste projeto é consolidar os conhecimentos adquiridos no curso, abordando as melhores práticas na construção de aplicações web usando PHP 8 e PDO. Durante o desenvolvimento, foram explorados conceitos como:
 
--Conexão com banco de dados usando PDO
--Criação, leitura, atualização e exclusão (CRUD) de registros
--Preparação e execução de consultas SQL
--Tratamento de exceções e erros
--Boas práticas de segurança, como prevenção de SQL Injection
--Estruturação do código e organização do projeto
+.Conexão com banco de dados usando PDO
+.Criação, leitura, atualização e exclusão (CRUD) de registros
+.Preparação e execução de consultas SQL
+.Tratamento de exceções e erros
+.Boas práticas de segurança, como prevenção de SQL Injection
+.Estruturação do código e organização do projeto
 
 
 # Funcionalidades
 O sistema desenvolvido possui as seguintes funcionalidades:
 
--Cadastro de usuários
--Autenticação de usuários com sessão
--Listagem, edição e exclusão de registros no banco de dados
--Validação de formulários
--Interface básica utilizando HTML e CSS
+.Cadastro de usuários
+.Autenticação de usuários com sessão
+.Listagem, edição e exclusão de registros no banco de dados
+.Validação de formulários
+.Interface básica utilizando HTML e CSS
 
 
 # Requisitos
 Para executar o projeto, é necessário ter instalado em sua máquina:
 
--PHP 8.x
--Servidor web (como Apache ou Nginx)
--Banco de dados MySQL
+.PHP 8.x
+.Servidor web (como Apache ou Nginx)
+.Banco de dados MySQL
 
 
 # Instalação
