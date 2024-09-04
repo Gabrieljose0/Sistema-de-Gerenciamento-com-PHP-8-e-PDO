@@ -36,7 +36,7 @@ if($total_reg > 0) {
         echo "<script language='javascript'> window.location ='painel-adm' </script>";
     }
     elseif($nivel == "Cliente"){
-        echo "<script language='javascript'> window.location ='painel-visita' </script>";
+        echo "<script language='javascript'> window.location ='painel-cliente' </script>";
     }
 
 }
