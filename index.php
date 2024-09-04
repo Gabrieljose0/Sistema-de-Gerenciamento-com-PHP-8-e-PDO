@@ -16,6 +16,9 @@ require_once("conexao/conexao.php");
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
+
+    <link href="CSS/style.css" rel="stylesheet">
+
 </head>
 
 
@@ -23,52 +26,44 @@ require_once("conexao/conexao.php");
 <body>
 
 
+
     <div class="container">
 
+        <!-- <form method="post" action="tabela.php"> -->
 
         <form method="post" action="autenticar.php">
 
             <section class="vh-100">
-                <div class="container-fluid h-custom">
-                    <div class="row d-flex justify-content-center align-items-center h-100">
-                        <div class="col-md-9 col-lg-6 col-xl-5">
-                            <img src="https://marketplace.canva.com/EAF65EWbuV0/4/0/1600w/canva-black-and-blue-simple-creative-illustrative-dragons-e-sport-logo-NO64HUH8vCA.jpg"
-                                class="img-fluid" alt="Sample image">
+                <div class="wrapper fadeInDown">
+                    <div id="formContent">
+                        <!-- Tabs Titles -->
+
+                        <!-- Icon -->
+                        <div class="fadeIn first">
+                            <img src="img/bem-vindo.png" id="icon" alt="bem vindo!" />
                         </div>
-                        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-                            <form>
 
+                        <!-- Login Form -->
+                        <form>
+                            <div class="container-fluid mt-3">
+                                <input type="text" id="login" name="usuario"
+                                    class="fadeIn second form-control form-control-lg mb-2" placeholder="Usuário">
 
-                                <!-- Email input -->
-                                <div data-mdb-input-init class="form-outline mb-4">
-                                    <input type="text" id="usuario" name="usuario" class="form-control form-control-lg"
-                                        required />
-                                    <label class="form-label" for="form3Example3">Usuário</label>
-                                </div>
+                                <input type="password" id="password" name="senha"
+                                    class="fadeIn third form-control form-control-lg mb-2" placeholder="Senha">
+                                <input type="submit" class="fadeIn fourth" value="Log In">
+                            </div>
+                        </form>
 
-                                <!-- Password input -->
-                                <div data-mdb-input-init class="form-outline mb-3">
-                                    <input type="password" id="senha" name="senha" class="form-control form-control-lg"
-                                        required />
-                                    <label class="form-label" for="form3Example4">Senha</label>
-                                </div>
-
-
-                                <div class="text-center text-lg-start mt-4 pt-2">
-                                    <button type="submit" data-mdb-button-init data-mdb-ripple-init
-                                        class="btn btn-primary btn-lg"
-                                        style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
-
-                                    <p class="small fw-bold mt-2 pt-1 mb-0">
-                                        Don't have an account?
-                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal">Register</button>
-                                    </p>
-
-                                </div>
-
-                            </form>
+                        <!-- Remind Passowrd -->
+                        <div id="formFooter">
+                            <p class="small fw-bold mt-2 pt-1 mb-0">
+                                Não tem uma conta?
+                                <button type="button" class="underlineHover btn" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">Register</button>
+                            </p>
                         </div>
+
                     </div>
                 </div>
 
@@ -87,7 +82,7 @@ require_once("conexao/conexao.php");
 
                                     <div class="mb-3">
                                         <label for="exampleInputEmail1" class="form-label">Nome</label>
-                                        <input type="text" class="form-control" id="exampleInputName"
+                                        <input type="text" class="form-control" id="exampleInputEmail"
                                             name="cadastroUsuario" aria-describedby="name" required>
                                     </div>
                                     <div class="mb-3">
@@ -113,33 +108,6 @@ require_once("conexao/conexao.php");
                     </div>
                 </div>
 
-
-
-                <div
-                    class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary">
-                    <!-- Copyright -->
-                    <div class="text-white mb-3 mb-md-0">
-                        Copyright © 2020. All rights reserved.
-                    </div>
-                    <!-- Copyright -->
-
-                    <!-- Right -->
-                    <div>
-                        <a href="#!" class="text-white me-4">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#!" class="text-white me-4">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#!" class="text-white me-4">
-                            <i class="fab fa-google"></i>
-                        </a>
-                        <a href="#!" class="text-white">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                    </div>
-                    <!-- Right -->
-                </div>
             </section>
 
 
