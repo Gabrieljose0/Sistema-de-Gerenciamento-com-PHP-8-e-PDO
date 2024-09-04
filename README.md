@@ -63,7 +63,7 @@ Para executar o projeto, é necessário ter instalado em sua máquina:
 
 # Instalação
 1. Clone este repositório:
-git clone https://github.com/seu-usuario/Sistema-de-Gerenciamento-com-PHP-8-e-PDO.git
+git clone https://github.com/Gabrieljose0/Sistema-de-Gerenciamento-com-PHP-8-e-PDO.git
 
 2. Navegue até o diretório do projeto:
 cd Sistema-de-Gerenciamento-com-PHP-8-e-PDO
