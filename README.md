@@ -35,7 +35,7 @@ O sistema desenvolvido possui as seguintes funcionalidades:
 -Cadastro de usuários
 
 
-.Autenticação de usuários com sessão
+-Autenticação de usuários com sessão
 
 
 -Listagem, edição e exclusão de registros no banco de dados
@@ -44,8 +44,17 @@ O sistema desenvolvido possui as seguintes funcionalidades:
 -Validação de formulários
 
 
--Interface básica utilizando HTML e CSS
+# Tecnologias Utilizadas
+-PHP: Linguagem principal utilizada para o desenvolvimento da aplicação.
 
+
+-MySQL: Banco de dados para armazenar as informações dos produtos.
+
+
+-Bootstrap: Framework front-end para criação de uma interface responsiva e estilizada.
+
+
+-HTML/CSS: Estruturação e estilização da interface do usuário.
 
 
 # Requisitos
